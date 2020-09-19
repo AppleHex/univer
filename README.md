@@ -29,9 +29,8 @@ ________
 ```
 #### Скриншот работы
 ```
-
-![crypt](https://sun9-2.userapi.com/Ooiqdwb-sTo0aDyzL7B9YFJKhBTy1BUuMBkbVA/Hpmbqynm_xo.jpg "crypt")
-![decrypt](https://sun9-51.userapi.com/P0dLS96Bz3BXePrfMRKOJVbaGaRItc0VzUZzcw/IgEPAR2u1qk.jpg "decrypt")
+[![Тут текст](https://sun9-2.userapi.com/Ooiqdwb-sTo0aDyzL7B9YFJKhBTy1BUuMBkbVA/Hpmbqynm_xo.jpg)]
+[![Тут текст](https://sun9-51.userapi.com/P0dLS96Bz3BXePrfMRKOJVbaGaRItc0VzUZzcw/IgEPAR2u1qk.jpg)]
 ```
 
 ________
