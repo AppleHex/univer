@@ -31,7 +31,14 @@ ________
 
 ![Тут текст](https://sun9-2.userapi.com/Ooiqdwb-sTo0aDyzL7B9YFJKhBTy1BUuMBkbVA/Hpmbqynm_xo.jpg)
 ![Тут текст](https://sun9-51.userapi.com/P0dLS96Bz3BXePrfMRKOJVbaGaRItc0VzUZzcw/IgEPAR2u1qk.jpg)
-
+#### Запуск
+```
+1. Для запуска программы нужна visual studio 2017 или другой IDE
+2. Скачайте/склонируйте файлы и распакуйте их в одну папку
+3. Собирайте программу из Cesar.cpp
+4. Запускаете программу и следуете ее инструкции
+(?) радуетесь жизни
+```
 
 ________
 [:space_invader:Оглавление](#Оглавление)
