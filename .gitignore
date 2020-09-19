@@ -1,3 +1,8 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/windows,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,c++
+
+### C++ ###
 # Prerequisites
 *.d
 
@@ -30,6 +35,7 @@
 *.exe
 *.out
 *.app
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -56,4 +62,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows
+# End of https://www.toptal.com/developers/gitignore/api/windows,c++
