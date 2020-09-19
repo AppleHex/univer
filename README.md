@@ -4,7 +4,6 @@ ____
 ## Оглавление
 0. [Зачем](#Зачем)
 1. [Программы](#Программы)
-    1. [Шифрование Цезарем](#Шифрование Цезарем)
 ____
 ## Зачем
 ```
@@ -26,10 +25,13 @@ ________
 
 #### Что делает
 ```
-Данная программа переводит шифрует текст по методу Цезаря
+Данная программа шифрует текст по методу Цезаря
 ```
 #### Скриншот работы
 ```
+
+![crypt](https://sun9-2.userapi.com/Ooiqdwb-sTo0aDyzL7B9YFJKhBTy1BUuMBkbVA/Hpmbqynm_xo.jpg "crypt")
+![decrypt](https://sun9-51.userapi.com/P0dLS96Bz3BXePrfMRKOJVbaGaRItc0VzUZzcw/IgEPAR2u1qk.jpg "decrypt")
 ```
 
 ________
