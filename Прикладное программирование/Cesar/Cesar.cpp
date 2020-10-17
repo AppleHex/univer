@@ -7,7 +7,7 @@
 using namespace std;
 
 
-int add(unsigned char a, int k) {
+int add(unsigned char a, int k) { // функция для передвижения символа по таблице
 	int _a = int(a);
 	if(_a >= 65 && _a <= 90 ) // для английской
 	{
@@ -37,21 +37,44 @@ int add(unsigned char a, int k) {
 		return _a;
 	}
 
-int main()
-{
+void crypt() { // функция для кодировки
 	int a;
 	string buffer;
-	cout << "Write a number ( +  encrypt, - decrypt )\n";
+	cout << "Write a number ( +  encrypt, - decrypt )\n" << endl;
 	cout << "> ";
-	(cin >> a).get();
-	cout << "Write a text: \n > ";
-	getline(cin, buffer);
-	//hi man, хочешь расскажу кул story? иди сюда, присаживайся. Покажу тебе very FUN joke
-	cout << "OLD: " << buffer << endl;
-	cout << "NEW: ";
-	for (unsigned char x : buffer) {
-		cout << unsigned char(add(x, a));
+	cin >> a;
+	if (cin.fail()) { cout << "Error(02): Not number" << endl; cin.clear(); }
+	else {
+		cout << "Write a text: \n > ";
+		getline(cin, buffer);
+		//hi man, хочешь расскажу кул story? иди сюда, присаживайся. Покажу тебе very FUN joke
+		cout << "OLD: " << buffer << endl;
+		cout << "NEW: ";
+		for (unsigned char x : buffer) {
+			cout << unsigned char(add(x, a)); 
+		}
+		cout << "\n\n\n\n\n";
 	}
-	cout << "\n\n\n\n\n";
+}
+
+
+int main() // главный блок - менюшка
+{
+	bool c = true;
+	char b;
+	cout << "1 - to crypt\n 2 - to exit" << endl;
+	while (c) {
+		cout << "> ";
+		cin >> b;
+		cin.clear();
+		switch (b)
+		{
+		case '1': crypt(); break;
+		case '2': c = false; break;
+		default:
+			break;
+		}
+	}
 	
 }
+
