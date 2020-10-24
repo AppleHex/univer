@@ -43,10 +43,11 @@ void crypt() { // функция для кодировки
 	cout << "Write a number ( +  encrypt, - decrypt )\n" << endl;
 	cout << "> ";
 	cin >> a;
+	cin.clear();
 	if (cin.fail()) { cout << "Error(02): Not number" << endl; cin.clear(); }
 	else {
 		cout << "Write a text: \n > ";
-		getline(cin, buffer);
+		cin >> buffer;
 		//hi man, хочешь расскажу кул story? иди сюда, присаживайся. Покажу тебе very FUN joke
 		cout << "OLD: " << buffer << endl;
 		cout << "NEW: ";
