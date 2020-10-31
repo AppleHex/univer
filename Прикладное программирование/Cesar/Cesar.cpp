@@ -1,12 +1,50 @@
 ﻿// cesar.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_DEPRECATE
+#define _CRT_NONSTDC_NO_DEPRECATE
 #include "pch.h"
 #include <iostream>
 #include <string>
+#include <fstream>
+#include <time.h>   
 using namespace std;
 
+enum Type {
+	ERROR, //0
+	WARNING, //1 
+	INFO,//2
+};
+class Debug {
+private:
+	string filename = "log.txt";
+	ofstream file;
+	time_t now = time(0);
+public:
+	Debug() {
+		file.open(filename, ios_base::app);
+		file << "0 - error \n 1 - waring \n 2 - info \n " << endl;
+		file.close();
+	};
+	Debug(string name) {
+		filename = name;
+		file.open(filename, ios_base::app);
+		file << "0 - error \n 1 - waring \n 2 - info \n " << endl;
+		file.close();
+	};
+	void Log(Type type, string msg) {
+		time_t curr_time;
+		curr_time = time(NULL);
 
+		char *tm = ctime(&curr_time); // время
+		string str = string(tm);
+		
+		file.open(filename, ios_base::app);
+		file << "[ " << str.substr(0, str.size() - 1) << " ] {" << type << "} MSG: " << msg << endl;
+		file.close();
+	}
+
+};
 int add(unsigned char a, int k) { // функция для передвижения символа по таблице
 	int _a = int(a);
 	if(_a >= 65 && _a <= 90 ) // для английской
@@ -36,43 +74,53 @@ int add(unsigned char a, int k) { // функция для передвижен�
 	}
 		return _a;
 	}
-
+Debug debug("log.txt");
 void crypt() { // функция для кодировки
+	
 	int a;
 	string buffer;
 	cout << "Write a number ( +  encrypt, - decrypt )\n" << endl;
 	cout << "> ";
 	cin >> a;
-	cin.clear();
-	if (cin.fail()) { cout << "Error(02): Not number" << endl; cin.clear(); }
+	debug.Log(INFO,("input: " + to_string(a)));
+
+	if (cin.fail()) { debug.Log(ERROR,(("error input: "  + to_string(a)))); cin.clear(); }
 	else {
 		cout << "Write a text: \n > ";
 		cin >> buffer;
+		debug.Log(INFO, ("input: " + buffer));
 		//hi man, хочешь расскажу кул story? иди сюда, присаживайся. Покажу тебе very FUN joke
 		cout << "OLD: " << buffer << endl;
 		cout << "NEW: ";
+		string out;
 		for (unsigned char x : buffer) {
-			cout << unsigned char(add(x, a)); 
+			auto _a = unsigned char(add(x, a));
+			out += _a;
+			cout << _a; 
 		}
-		cout << "\n\n\n\n\n";
+		debug.Log(INFO, ("out: " + buffer));
 	}
 }
 
 
 int main() // главный блок - менюшка
 {
+	debug.Log(INFO, "open");
 	bool c = true;
 	char b;
-	cout << "1 - to crypt\n 2 - to exit" << endl;
+	cout << "1 - to crypt\n 2 - to exit\n" << endl;
+	cin.clear();
 	while (c) {
 		cout << "> ";
 		cin >> b;
+		debug.Log(INFO, ("input:" + to_string(b)));
 		cin.clear();
 		switch (b)
 		{
 		case '1': crypt(); break;
-		case '2': c = false; break;
+		case '2': c = false; debug.Log(INFO, "close");  break;
 		default:
+			debug.Log(ERROR, ("input: " + b));
 			break;
 		}
 	}

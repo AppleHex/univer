@@ -1,2 +1,13 @@
 ﻿  cesar.cpp
+c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(3): warning C4005: _CRT_SECURE_NO_WARNINGS: изменение макроопределения
+  c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp: note: см. предыдущее определение "_CRT_SECURE_NO_WARNINGS"
+c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(3): warning C4603: _CRT_SECURE_NO_WARNINGS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(3): note: Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+  c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(6): note: использование предварительно скомпилированного заголовка
+c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(4): warning C4603: _CRT_SECURE_NO_DEPRECATE: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(4): note: Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+  c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(6): note: использование предварительно скомпилированного заголовка
+c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(5): warning C4603: _CRT_NONSTDC_NO_DEPRECATE: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(5): note: Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+  c:\users\user\documents\github\univer\прикладное программирование\cesar\cesar.cpp(6): note: использование предварительно скомпилированного заголовка
   cesar.vcxproj -> C:\Users\User\Documents\GitHub\univer\Прикладное программирование\Cesar\x64\Debug\cesar.exe
