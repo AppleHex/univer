@@ -29,7 +29,7 @@ public:
 	Debug(string name) {
 		filename = name;
 		file.open(filename, ios_base::app);
-		file << "0 - error \n 1 - waring \n 2 - info \n " << endl;
+		file << "0 - error\n 1 - waring\n2 - info\n " << endl;
 		file.close();
 	};
 	void Log(Type type, string msg) {
@@ -80,13 +80,12 @@ void crypt() { // функция для кодировки
 	int a;
 	string buffer;
 	cout << "Write a number ( +  encrypt, - decrypt )\n" << endl;
-	cout << "> ";
 	cin >> a;
 	debug.Log(INFO,("input: " + to_string(a)));
 
 	if (cin.fail()) { debug.Log(ERROR,(("error input: "  + to_string(a)))); cin.clear(); }
 	else {
-		cout << "Write a text: \n > ";
+		cout << "Write a text: \n  ";
 		cin >> buffer;
 		debug.Log(INFO, ("input: " + buffer));
 		//hi man, хочешь расскажу кул story? иди сюда, присаживайся. Покажу тебе very FUN joke
@@ -98,7 +97,8 @@ void crypt() { // функция для кодировки
 			out += _a;
 			cout << _a; 
 		}
-		debug.Log(INFO, ("out: " + buffer));
+		cout << endl;
+		debug.Log(INFO, ("out: " + out));
 	}
 }
 
@@ -111,9 +111,8 @@ int main() // главный блок - менюшка
 	cout << "1 - to crypt\n 2 - to exit\n" << endl;
 	cin.clear();
 	while (c) {
-		cout << "> ";
 		cin >> b;
-		debug.Log(INFO, ("input:" + to_string(b)));
+		debug.Log(INFO, ("input:" + b));
 		cin.clear();
 		switch (b)
 		{
