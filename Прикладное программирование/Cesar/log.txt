@@ -1,0 +1,242 @@
+0 - error
+ 1 - waring
+2 - info
+ 
+[ Sat Oct 31 16:16:05 2020 ] {2} MSG: open
+[ Sat Oct 31 16:16:06 2020 ] {2} MSG: input:49
+[ Sat Oct 31 16:16:07 2020 ] {2} MSG: input: 0
+[ Sat Oct 31 16:16:07 2020 ] {0} MSG: error input: 0
+[ Sat Oct 31 16:16:07 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:16:07 2020 ] {0} MSG: input: 97
+0 - error
+ 1 - waring
+2 - info
+ 
+[ Sat Oct 31 16:17:05 2020 ] {2} MSG: open
+[ Sat Oct 31 16:17:06 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:06 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:07 2020 ] {2} MSG: input:98
+[ Sat Oct 31 16:17:07 2020 ] {0} MSG: input: 98
+[ Sat Oct 31 16:17:07 2020 ] {2} MSG: input:99
+[ Sat Oct 31 16:17:07 2020 ] {0} MSG: input: 99
+[ Sat Oct 31 16:17:08 2020 ] {2} MSG: input:49
+[ Sat Oct 31 16:17:10 2020 ] {2} MSG: input: 0
+[ Sat Oct 31 16:17:10 2020 ] {0} MSG: error input: 0
+[ Sat Oct 31 16:17:10 2020 ] {2} MSG: input:98
+[ Sat Oct 31 16:17:10 2020 ] {0} MSG: input: 98
+[ Sat Oct 31 16:17:12 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:17:12 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:17:13 2020 ] {2} MSG: input:118
+[ Sat Oct 31 16:17:13 2020 ] {0} MSG: input: 118
+[ Sat Oct 31 16:17:13 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:13 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:16 2020 ] {2} MSG: input:49
+[ Sat Oct 31 16:17:18 2020 ] {2} MSG: input: 5
+[ Sat Oct 31 16:17:38 2020 ] {2} MSG: input: asd
+[ Sat Oct 31 16:17:38 2020 ] {2} MSG: out: fxi
+0 - error
+ 1 - waring
+2 - info
+ 
+[ Sat Oct 31 16:17:45 2020 ] {2} MSG: open
+[ Sat Oct 31 16:17:47 2020 ] {2} MSG: input:104
+[ Sat Oct 31 16:17:47 2020 ] {0} MSG: input: 104
+[ Sat Oct 31 16:17:47 2020 ] {2} MSG: input:101
+[ Sat Oct 31 16:17:47 2020 ] {0} MSG: input: 101
+[ Sat Oct 31 16:17:47 2020 ] {2} MSG: input:108
+[ Sat Oct 31 16:17:47 2020 ] {0} MSG: input: 108
+[ Sat Oct 31 16:17:47 2020 ] {2} MSG: input:108
+[ Sat Oct 31 16:17:47 2020 ] {0} MSG: input: 108
+[ Sat Oct 31 16:17:47 2020 ] {2} MSG: input:111
+[ Sat Oct 31 16:17:47 2020 ] {0} MSG: input: 111
+[ Sat Oct 31 16:17:49 2020 ] {2} MSG: input:104
+[ Sat Oct 31 16:17:49 2020 ] {0} MSG: input: 104
+[ Sat Oct 31 16:17:49 2020 ] {2} MSG: input:105
+[ Sat Oct 31 16:17:49 2020 ] {0} MSG: input: 105
+[ Sat Oct 31 16:17:50 2020 ] {2} MSG: input:49
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input: 0
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: error input: 0
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:17:52 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:17:52 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:17:53 2020 ] {2} MSG: input:49
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input: 0
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: error input: 0
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:17:54 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:17:54 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:17:57 2020 ] {2} MSG: input:49
+[ Sat Oct 31 16:17:59 2020 ] {2} MSG: input: 5
+[ Sat Oct 31 16:18:02 2020 ] {2} MSG: input: asddasdadada
+[ Sat Oct 31 16:18:02 2020 ] {2} MSG: out: fxiifxififif
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input:49
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input: 0
+[ Sat Oct 31 16:18:20 2020 ] {0} MSG: error input: 0
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:20 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:18:20 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:20 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:20 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:20 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:20 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:20 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:18:20 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:18:22 2020 ] {2} MSG: input:45
+[ Sat Oct 31 16:18:22 2020 ] {0} MSG: input: 45
+[ Sat Oct 31 16:18:22 2020 ] {2} MSG: input:53
+[ Sat Oct 31 16:18:22 2020 ] {0} MSG: input: 53
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:18:25 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:18:25 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:18:26 2020 ] {2} MSG: input:53
+[ Sat Oct 31 16:18:26 2020 ] {0} MSG: input: 53
+[ Sat Oct 31 16:18:27 2020 ] {2} MSG: input:49
+[ Sat Oct 31 16:18:28 2020 ] {2} MSG: input: 2
+[ Sat Oct 31 16:18:29 2020 ] {2} MSG: input: a
+[ Sat Oct 31 16:18:29 2020 ] {2} MSG: out: c
+0 - error
+ 1 - waring
+2 - info
+ 
+[ Sat Oct 31 16:18:36 2020 ] {2} MSG: open
+0 - error
+ 1 - waring
+2 - info
+ 
+[ Sat Oct 31 16:20:10 2020 ] {2} MSG: open
+[ Sat Oct 31 16:20:11 2020 ] {2} MSG: visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring
+[ Sat Oct 31 16:20:11 2020 ] {2} MSG: input: 23
+[ Sat Oct 31 16:20:12 2020 ] {2} MSG: input: 3
+[ Sat Oct 31 16:20:12 2020 ] {2} MSG: out: 3
+[ Sat Oct 31 16:20:13 2020 ] {2} MSG: to crypt
+ 2 - to exit
+
+[ Sat Oct 31 16:20:13 2020 ] {0} MSG:  - decrypt )
+
+0 - error
+ 1 - waring
+2 - info
+ 
+[ Sat Oct 31 16:22:30 2020 ] {2} MSG: open
+[ Sat Oct 31 16:22:32 2020 ] {2} MSG: .27023\include\xstring
+[ Sat Oct 31 16:22:32 2020 ] {0} MSG: ypt
+ 2 - to exit
+
+[ Sat Oct 31 16:22:32 2020 ] {2} MSG: 27023\include\xstring
+[ Sat Oct 31 16:22:32 2020 ] {0} MSG: pt
+ 2 - to exit
+
+[ Sat Oct 31 16:22:32 2020 ] {2} MSG: ring
+[ Sat Oct 31 16:22:32 2020 ] {0} MSG: 
+[ Sat Oct 31 16:22:32 2020 ] {2} MSG: isual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring
+[ Sat Oct 31 16:22:32 2020 ] {2} MSG: close
+0 - error
+ 1 - waring
+2 - info
+ 
+[ Sat Oct 31 16:23:27 2020 ] {2} MSG: open
+[ Sat Oct 31 16:23:27 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:23:27 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:23:27 2020 ] {2} MSG: input:98
+[ Sat Oct 31 16:23:27 2020 ] {0} MSG: input: 98
+[ Sat Oct 31 16:23:27 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:23:27 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:23:28 2020 ] {2} MSG: input:98
+[ Sat Oct 31 16:23:28 2020 ] {0} MSG: input: 98
+[ Sat Oct 31 16:23:29 2020 ] {2} MSG: input:50
+[ Sat Oct 31 16:23:29 2020 ] {2} MSG: close
+0 - error
+ 1 - waring
+2 - info
+ 
+[ Sat Oct 31 16:24:10 2020 ] {2} MSG: open
+[ Sat Oct 31 16:24:11 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:24:11 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:24:11 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:24:11 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:24:11 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:24:11 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:24:12 2020 ] {2} MSG: input:100
+[ Sat Oct 31 16:24:12 2020 ] {0} MSG: input: 100
+[ Sat Oct 31 16:24:12 2020 ] {2} MSG: input:115
+[ Sat Oct 31 16:24:12 2020 ] {0} MSG: input: 115
+[ Sat Oct 31 16:24:12 2020 ] {2} MSG: input:97
+[ Sat Oct 31 16:24:12 2020 ] {0} MSG: input: 97
+[ Sat Oct 31 16:24:13 2020 ] {2} MSG: input:50
+[ Sat Oct 31 16:24:13 2020 ] {2} MSG: close
