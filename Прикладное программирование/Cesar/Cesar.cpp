@@ -109,17 +109,16 @@ int main() // главный блок - менюшка
 	bool c = true;
 	char b;
 	cout << "1 - to crypt\n 2 - to exit\n" << endl;
-	cin.clear();
 	while (c) {
 		cin >> b;
-		debug.Log(INFO, ("input:" + b));
+		debug.Log(INFO, "input:" + to_string(b));
 		cin.clear();
 		switch (b)
 		{
 		case '1': crypt(); break;
 		case '2': c = false; debug.Log(INFO, "close");  break;
 		default:
-			debug.Log(ERROR, ("input: " + b));
+			debug.Log(ERROR, "input: " + to_string(b));
 			break;
 		}
 	}
