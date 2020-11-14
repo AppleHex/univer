@@ -58,7 +58,7 @@ ________
 ```
 #### Скриншот работы
 
-![Тут текст](https://sun9-41.userapi.com/R-_8FY9QuqFNwcEWkgko0SrYoF0LnmL9EVQfZw/GjWwvdeI8b0.jpg)
+![Тут текст](https://sun9-45.userapi.com/vN8rtGw5xy2Rr0NzYEeTCCfN6NrYXsT7iSAQeQ/Y3GHopfDoGM.jpg)
 
 #### Запуск
 ```

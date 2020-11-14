@@ -5,9 +5,9 @@
 ### C++ ###
 # Prerequisites
 *.d
-PP/Cesar/vs/
-PP/Cesar/x64/
-PP/Sati/Debug/
+.vs
+.x64
+Прикладное программирование/Sati/Debug/
 # Compiled Object files
 *.slo
 *.lo
