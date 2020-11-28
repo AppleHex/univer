@@ -9,4 +9,6 @@ ____
 (?) радуйтесь жизни
 Сборка программы осуществлена в Microsoft Visual C++ 2017
 ```
+
+![Тут текст](https://sun9-7.userapi.com/impg/TwF5SRxpGM4U2AaN0iEDEbKruIpzRHLOahwr0w/bliGGTANNBM.jpg?size=1200x630&quality=96&proxy=1&sign=9943cd592fe09c9e58d682bac52bf7da)
 ____
